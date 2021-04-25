@@ -1,5 +1,5 @@
 const { io } = require('../index') ;
-const Band = require('../Models/band');
+const Band = require('../models/band');
 
 const Bands = require('../models/bands') ;
 
@@ -8,8 +8,9 @@ const bands = new Bands() ;
 bands.addBand( new Band('Queen') ) ;
 bands.addBand( new Band('Bon Jovi') ) ;
 bands.addBand( new Band('Heroes del Silencio') ) ;
-bands.addBand( new Band('Meatllica') ) ;
+bands.addBand( new Band('Metallica') ) ;
 bands.addBand( new Band('Iron maiden') ) ;
+bands.addBand( new Band('Keane') ) ;
 //console.log(bands);
 
 // Mensajes de  Sockets
